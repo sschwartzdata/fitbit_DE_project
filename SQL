@@ -1,0 +1,14 @@
+#Creating the table
+
+CREATE TABLE sleep_data (
+   dateOfSleep date NOT NULL,
+   duration float(4) NOT NULL,
+   isMainSleep BOOLEAN NOT NULL,
+	deepSleep int,
+	lightSleep int,
+	remSleep int,
+	wakeSleep int,
+	awakeSleep int,
+	restlessSleep int,
+	asleepSleep int) 
+);
